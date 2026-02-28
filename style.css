@@ -3,3 +3,114 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    background-color: #231c4a;
+    color: #c5edce;
+    height: 100vh;
+}
+
+main{
+    background-color: #8383f6;
+    color: #231c4a;
+    height: 70%;
+    /* outline: auto; */
+    width: 90%;
+    margin: 50px auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.main_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label{
+    color:#0e01be;
+}
+
+.add_comment{
+   border: 2px solid #6359ee;
+   padding: 1rem;
+   border-radius: 1rem;
+   height: 90px;
+   width: 300px;
+   display: flex;
+   gap: 1rem;
+   justify-content: center;
+   align-items: center;
+}
+
+.box_comentario{
+     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.input_comment{
+   
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+
+}
+.icon{
+    
+    padding: .3rem;
+    width: 40px;
+    height: 40px;
+    transition: ease-in .2s;
+
+}
+.icon:hover{
+    background-color: rgb(135, 216, 30);
+    border-radius: 20px;
+    
+}
+
+.list_commets{
+    
+    width: 300px;
+    height: 90%;
+    border-radius: .6rem;
+    border: 2px solid #6359ee;
+   
+}
+.comment{
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: .4rem;
+}
+.icon_delete{
+    
+    padding: .3rem;
+    width: 40px;
+    height: 40px;
+    transition: ease-in .2s;
+
+}
+.icon_eliminar:hover{
+    background-color: rgb(255, 16, 8);
+    border-radius: 20px;
+}
+.comentario_box{
+    padding: 1rem;
+    height: 50px;
+    background-color: #a6adfb;
+    color: #044581;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
